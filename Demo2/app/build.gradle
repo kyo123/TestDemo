@@ -3,7 +3,7 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 27
     defaultConfig {
-        applicationId "com.example.kyo.myapplication"
+        applicationId "com.example.kyo.demo2"
         minSdkVersion 15
         targetSdkVersion 27
         versionCode 1
@@ -25,10 +25,5 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
-    implementation 'com.github.kyo123:TestDemo:Tag'
-}
-
-repositories {
-    mavenCentral()
-    maven { url 'https://jitpack.io' }
+    implementation 'com.github.kyo123:TestDemo:1.0'
 }
